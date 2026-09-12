@@ -168,6 +168,8 @@ ul {
 .hero h1 {
     margin-top: 12px;
 
+    color: var(--blue);
+
     font-size: clamp(4rem, 5vw, 6.8rem);
 
     line-height: 0.95;
@@ -176,7 +178,7 @@ ul {
 }
 
 .hero h1 span {
-    color: var(--blue);
+    color: var(--dark);
 }
 
 .hero h2 {
@@ -777,6 +779,8 @@ ul {
 .portfolio-hero h1 {
     margin-top: 10px;
 
+    color: var(--blue);
+
     font-size: clamp(3rem, 7vw, 5.5rem);
 
     line-height: 1;
@@ -785,7 +789,7 @@ ul {
 }
 
 .portfolio-hero h1 span {
-    color: var(--blue);
+    color: var(--dark);
 }
 
 .portfolio-hero > p:last-child {
@@ -1192,18 +1196,18 @@ ul {
 .contact-info {
     padding: 30px;
     border-radius: 24px;
-    background: #FBF3EF;
-    border: 1px solid #D4B2AC;
+    background: #B98F87;
+    border: 1px solid #B98F87;
 }
 
 .contact-info h2 {
     margin-top: 0;
-    color: #3D2C29;
+    color: #FBF3EF;
     font-size: 1.6rem;
 }
 
 .contact-info > p {
-    color: rgba(61,44,41,0.68);
+    color: rgba(251,243,239,0.88);
     line-height: 1.7;
     margin-bottom: 30px;
 }
@@ -1229,22 +1233,22 @@ ul {
 
     border-radius: 50%;
 
-    background: white;
-    border: 1px solid #D4B2AC;
+    background: #FBF3EF;
+    border: 1px solid #FBF3EF;
 
-    color: var(--blue);
+    color: #B98F87;
     font-weight: 800;
 }
 
 .contact-item h3 {
     margin: 0 0 4px;
     font-size: 0.95rem;
-    color: #3D2C29;
+    color: #FBF3EF;
 }
 
 .contact-item p {
     margin: 0;
-    color: rgba(61,44,41,0.68);
+    color: rgba(251,243,239,0.88);
     font-size: 0.9rem;
 }
 
