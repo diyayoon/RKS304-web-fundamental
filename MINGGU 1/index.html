@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vanilla.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <title>My HTML Gueh</title>
-    <style>
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diya - Portfolio</title>
+  <link rel="stylesheet" href="vanilla.css">
 </head>
+<body>
 
-<body style="text-align: center;">
-    <h1 class="animate__animated animate__bounce">HI TESTING HTML</h1>
-    <p>Ibarat kata belajar.</p>
-    <a href="https://www.google.com" class="jarak">Google anjoy</a>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div>
-        <form action="login.html" method=get>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username"  placeholder="Enter your username" required><br><br>
+  <main>
+    <section id="hero">
+      <img src="assets/foto.jpg" alt="Foto profil Diya">
+      <h1>Mahdiya</h1>
+      <p>Mahasiswa Rekayasa Keamanan Siber</p>
+      <p>Sedang belajar web development dan cybersecurity di Politeknik Negeri Batam.</p>
+    </section>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
-            <input type="checkbox" id="remember" name="remember">
-            <label for="remember">Remember me</label><br><br>
+    <section id="about">
+      <h2>About</h2>
+      <p>Mahasiswa RKS 2A Pagi di Politeknik Negeri Batam, fokus di bidang keamanan siber. Tertarik dengan pengembangan web, jaringan, dan keamanan sistem.</p>
+      <ul>
+        <li>Politeknik Negeri Batam - Rekayasa Keamanan Siber (2024 - sekarang)</li>
+      </ul>
+    </section>
 
-            <input type="file" id="file" name="file"><br><br>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Jaringan Komputer</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>PHP</li>
+      </ul>
+    </section>
+  </main>
 
-            <select id="jurusan" name="jurusan">
-                <option value="">Jurusan</option>
-                <option value="computer_science">Computer Science</option>
-                <option value="mathematics">Mathematics</option>
-                <option value="physics">Physics</option>
-            </select><br><br>
-
-            <button type="submit" class="nyam cukay">Submit</button>
-            <button type="reset" class="nyam mmg">Reset</button>
-
-    
-        </form>
-    </div>
+  <footer>
+    <p>&copy; 2026 Diya. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
