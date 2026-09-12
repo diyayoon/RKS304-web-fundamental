@@ -1,52 +1,95 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Diya</title>
-  <link rel="stylesheet" href="vanilla.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mahdiya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Mahdiya</a>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <main>
-    <h1>Portfolio</h1>
+<main>
+    <section class="portfolio-hero">
+        <p class="section-label">My Work</p>
+        <h1>Projects &amp;<br><span>Documentation</span></h1>
+        <p>
+            Kumpulan project dan latihan yang berkaitan dengan web development,
+            cybersecurity, dan networking.
+        </p>
+    </section>
 
-    <div id="project-grid">
-      <article class="project-card">
-        <h2>PBL205 - File Manager Web App</h2>
-        <p>Aplikasi web file manager dengan fitur SIEM, Active Directory, dan kriptografi. Dikerjakan bersama tim untuk proyek Project Based Learning.</p>
-        <div class="tech-badges">
-          <span>PHP</span>
-          <span>MySQL</span>
+    <section class="project-section">
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-number">01</div>
+                <div class="project-content">
+                    <p class="project-category">Project Based Learning</p>
+                    <h2>File Manager Web App</h2>
+                    <p>
+                        Aplikasi web file manager dengan fitur yang berkaitan
+                        dengan SIEM, Active Directory, dan kriptografi.
+                    </p>
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Cybersecurity</span>
+                    </div>
+                    <a href="#" class="project-link">View Documentation →</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-number">02</div>
+                <div class="project-content">
+                    <p class="project-category">Web Development</p>
+                    <h2>Web Fundamental</h2>
+                    <p>
+                        Latihan HTML dan CSS dasar dengan membangun beberapa
+                        halaman statis untuk praktikum.
+                    </p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Web</span>
+                    </div>
+                    <a href="#" class="project-link">View Documentation →</a>
+                </div>
+            </article>
+
         </div>
-        <a href="#">Lihat repositori</a>
-      </article>
+    </section>
 
-      <article class="project-card">
-        <h2>Tugas Web Fundamental</h2>
-        <p>Latihan HTML dan CSS dasar, membangun beberapa halaman statis untuk praktikum.</p>
-        <div class="tech-badges">
-          <span>HTML</span>
-          <span>CSS</span>
+    <section class="cta">
+        <div>
+            <p class="section-label">Let's Connect</p>
+            <h2>Have a question or project?</h2>
+            <p>
+                Silakan hubungi saya untuk berdiskusi mengenai teknologi
+                dan project.
+            </p>
+            <a href="contact.html" class="btn btn-primary">
+                Contact Me <span>→</span>
+            </a>
         </div>
-        <a href="#">Lihat repositori</a>
-      </article>
-    </div>
-  </main>
+    </section>
+</main>
 
-  <footer>
-    <p>&copy; 2026 Diya. All rights reserved.</p>
-  </footer>
+<footer class="site-footer">
+    <p>© 2026 Mahdiya</p>
+    <p>Cyber Security Engineering Student</p>
+</footer>
 
 </body>
 </html>

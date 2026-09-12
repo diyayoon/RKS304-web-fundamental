@@ -1,53 +1,168 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diya - Portfolio</title>
-  <link rel="stylesheet" href="vanilla.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahdiya | Cyber Security Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Mahdiya</a>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <main>
-    <section id="hero">
-      <img src="assets/foto.jpg" alt="Foto profil Diya">
-      <h1>Mahdiya</h1>
-      <p>Mahasiswa Rekayasa Keamanan Siber</p>
-      <p>Sedang belajar web development dan cybersecurity di Politeknik Negeri Batam.</p>
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-label">Cyber Security Engineering Student</p>
+
+            <h1>
+                Mahdiya <span>Aisha</span>
+            </h1>
+
+            <h2>
+                Belajar keamanan siber.<br>
+                Satu langkah di satu waktu.
+            </h2>
+
+            <p class="hero-description">
+                Mahasiswa Rekayasa Keamanan Siber di Politeknik Negeri Batam
+                yang sedang mempelajari web development, jaringan, dan
+                keamanan sistem.
+            </p>
+
+            <div class="hero-actions">
+                <a href="portfolio.html" class="btn btn-primary">
+                    Explore My Work <span>→</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-profile">
+            <div class="profile-glow"></div>
+            <div class="profile-placeholder">
+                <span>MAHDIYA</span>
+            </div>
+            <div class="yellow-orb"></div>
+            <div class="blue-orb"></div>
+        </div>
     </section>
 
-    <section id="about">
-      <h2>About</h2>
-      <p>Mahasiswa RKS 2A Pagi di Politeknik Negeri Batam, fokus di bidang keamanan siber. Tertarik dengan pengembangan web, jaringan, dan keamanan sistem.</p>
-      <ul>
-        <li>Politeknik Negeri Batam - Rekayasa Keamanan Siber (2024 - sekarang)</li>
-      </ul>
+    <section class="expertise">
+        <p class="expertise-label">Areas of Interest</p>
+        <div class="expertise-list">
+            <span>Cybersecurity</span>
+            <span>Web Development</span>
+            <span>Networking</span>
+            <span>System Administration</span>
+            <span>Linux</span>
+        </div>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML & CSS</li>
-        <li>Jaringan Komputer</li>
-        <li>Cybersecurity Fundamentals</li>
-        <li>PHP</li>
-      </ul>
-    </section>
-  </main>
+    <section class="section about">
+        <div class="section-heading">
+            <p class="section-label">About Me</p>
+            <h2>Belajar teknologi sambil membangun dasar keamanan yang kuat.</h2>
+        </div>
 
-  <footer>
-    <p>&copy; 2026 Diya. All rights reserved.</p>
-  </footer>
+        <div class="about-grid">
+            <div class="about-description">
+                <p>
+                    Saya adalah mahasiswa Rekayasa Keamanan Siber di
+                    Politeknik Negeri Batam yang sedang mempelajari dasar-dasar
+                    cybersecurity dan pengembangan web.
+                </p>
+                <p>
+                    Saya tertarik pada pengembangan web, jaringan komputer,
+                    administrasi sistem, serta bagaimana keamanan diterapkan
+                    dalam sebuah sistem.
+                </p>
+            </div>
+
+            <div class="skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h4>HTML &amp; CSS</h4>
+                        <p>Membangun dan styling halaman web dasar.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h4>Web Development</h4>
+                        <p>Mempelajari pembuatan website dan struktur frontend.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h4>Networking</h4>
+                        <p>Dasar jaringan komputer dan konfigurasi perangkat.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h4>Cybersecurity</h4>
+                        <p>Memahami fundamental keamanan siber dan sistem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section journey">
+        <div class="section-heading">
+            <p class="section-label">My Journey</p>
+            <h2>Education &amp; Learning</h2>
+        </div>
+
+        <div class="journey-grid">
+            <article class="journey-card">
+                <span class="journey-year">Education</span>
+                <h3>Rekayasa Keamanan Siber</h3>
+                <p class="journey-place">Politeknik Negeri Batam</p>
+                <p>
+                    Mempelajari cybersecurity, jaringan komputer, sistem
+                    operasi, web development, dan dasar administrasi sistem.
+                </p>
+            </article>
+
+            <article class="journey-card">
+                <span class="journey-year">Current Focus</span>
+                <h3>Web &amp; Cybersecurity</h3>
+                <p class="journey-place">Praktikum &amp; Personal Learning</p>
+                <p>
+                    Sedang membangun pengalaman melalui praktikum, tugas,
+                    dan project sederhana yang berkaitan dengan teknologi.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div>
+            <p class="section-label">Have a project in mind?</p>
+            <h2>Let's build something secure.</h2>
+            <p>
+                Terbuka untuk berdiskusi mengenai teknologi, keamanan,
+                dan project.
+            </p>
+            <a href="contact.html" class="btn btn-primary">
+                Get In Touch <span>→</span>
+            </a>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© 2026 Mahdiya</p>
+    <p>Cyber Security Engineering Student</p>
+</footer>
 
 </body>
 </html>

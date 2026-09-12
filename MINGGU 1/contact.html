@@ -1,50 +1,122 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Diya</title>
-  <link rel="stylesheet" href="vanilla.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mahdiya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+<header class="site-header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Mahdiya</a>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
-  <main>
-    <h1>Hubungi Saya</h1>
+<main>
+    <section class="contact-section">
+        <div class="contact-header">
+            <p class="section-label">GET IN TOUCH</p>
+            <h1>Let's <span>Connect.</span></h1>
+            <p>
+                Jika ingin berdiskusi mengenai teknologi, web development,
+                cybersecurity, atau kolaborasi proyek, silakan kirimkan pesan
+                melalui form di bawah ini.
+            </p>
+        </div>
 
-    <form>
-      <label for="nama">Nama Lengkap</label>
-      <input type="text" id="nama" name="nama" required>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>
+                    Terbuka untuk diskusi, kolaborasi proyek, dan pertanyaan
+                    seputar bidang teknologi.
+                </p>
 
-      <label for="email">Alamat Email</label>
-      <input type="email" id="email" name="email" required>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>email@example.com</p>
+                    </div>
+                </div>
 
-      <label for="kategori">Kategori / Keperluan</label>
-      <select id="kategori" name="kategori">
-        <option value="konsultasi">Konsultasi</option>
-        <option value="kolaborasi">Kolaborasi Proyek</option>
-        <option value="pertanyaan">Pertanyaan Umum</option>
-      </select>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Mahdiya</p>
+                    </div>
+                </div>
 
-      <label for="pesan">Pesan</label>
-      <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>diya-yoon</p>
+                    </div>
+                </div>
+            </div>
 
-      <button type="submit">Kirim Pesan</button>
-    </form>
-  </main>
+            <div class="contact-form-wrapper">
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Masukkan nama lengkap" required>
+                    </div>
 
-  <footer>
-    <p>&copy; 2026 Diya. All rights reserved.</p>
-  </footer>
+                    <div class="form-group">
+                        <label for="email">Alamat Email</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="nama@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Kategori / Keperluan</label>
+                        <select id="category" name="category" required>
+                            <option value="" selected disabled>Pilih keperluan</option>
+                            <option value="consultation">Konsultasi</option>
+                            <option value="collaboration">Kolaborasi Proyek</option>
+                            <option value="question">Pertanyaan Umum</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon <span>(Opsional)</span></label>
+                        <input type="tel" id="phone" name="phone"
+                               placeholder="08xxxxxxxxxx">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Tuliskan pesan atau keperluan Anda..."
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        Kirim Pesan <span>→</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
 
 </body>
 </html>
