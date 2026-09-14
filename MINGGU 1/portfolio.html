@@ -1,95 +1,66 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Mahdiya</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Mahdiya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
-    <nav class="navbar">
-        <a href="index.html" class="logo"><span>Mahdiya</span> Aisha</a>
-        <ul class="nav-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html" class="active">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="brand">Mahdiya Aisha</a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html" aria-current="page">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<main>
-    <section class="portfolio-hero">
-        <p class="section-label">My Work</p>
-        <h1>Projects &amp;<br><span>Documentation</span></h1>
-        <p>
-            Kumpulan project dan latihan yang berkaitan dengan web development,
-            cybersecurity, dan networking.
-        </p>
-    </section>
-
-    <section class="project-section">
-        <div class="project-grid">
-
-            <article class="project-card">
-                <div class="project-number">01</div>
-                <div class="project-content">
-                    <p class="project-category">Project Based Learning</p>
-                    <h2>File Manager Web App</h2>
-                    <p>
-                        Aplikasi web file manager dengan fitur yang berkaitan
-                        dengan SIEM, Active Directory, dan kriptografi.
-                    </p>
-                    <div class="project-tags">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>Cybersecurity</span>
-                    </div>
-                    <a href="#" class="project-link">View Documentation →</a>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <div class="project-number">02</div>
-                <div class="project-content">
-                    <p class="project-category">Web Development</p>
-                    <h2>Web Fundamental</h2>
-                    <p>
-                        Latihan HTML dan CSS dasar dengan membangun beberapa
-                        halaman statis untuk praktikum.
-                    </p>
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Web</span>
-                    </div>
-                    <a href="#" class="project-link">View Documentation →</a>
-                </div>
-            </article>
-
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h1>Portfolio</h1>
+          <p>Beberapa proyek dan praktikum yang pernah saya kerjakan di bidang keamanan siber dan pengembangan sistem.</p>
         </div>
-    </section>
 
-    <section class="cta">
-        <div>
-            <p class="section-label">Let's Connect</p>
-            <h2>Have a question or project?</h2>
-            <p>
-                Silakan hubungi saya untuk berdiskusi mengenai teknologi
-                dan project.
-            </p>
-            <a href="contact.html" class="btn btn-primary">
-                Contact Me <span>→</span>
-            </a>
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="card-media">
+              <img src="assets/project1.png" alt="Screenshot aplikasi file manager PBL205" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3>Secure File Manager Web App</h3>
+              <p>Aplikasi web manajemen file berbasis PHP dengan integrasi monitoring SIEM, autentikasi Active Directory, dan enkripsi file. Dikerjakan bersama tim.</p>
+              <div class="card-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">SIEM</span>
+                <span class="tag">Cryptography</span>
+              </div>
+              <a href="https://github.com/diyayoon/pbl205.git" class="card-link">Lihat Repositori →</a>
+            </div>
+          </article>
         </div>
+      </div>
     </section>
-</main>
+  </main>
 
-<footer class="site-footer">
-    <p>© 2026 Mahdiya</p>
-    <p>Cyber Security Engineering Student</p>
-</footer>
+  <nav class="page-nav" aria-label="Navigasi halaman">
+    <div class="wrap">
+      <a href="index.html" class="page-nav-link">← Kembali ke Home</a>
+      <a href="contact.html" class="page-nav-link next">Lanjut ke Contact →</a>
+    </div>
+  </nav>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Mahdiya. Dibuat untuk Praktikum Web Fundamental.</p>
+  </footer>
 
 </body>
 </html>
